@@ -10,6 +10,7 @@
 #include<netinet/tcp.h>	  //for tcp header
 #include<netinet/ip.h>	 //for ip header
 
+//prototypes
 void process_packet(u_char *, const struct pcap_pkthdr *, const u_char *);
 void process_ip_packet(const u_char * , int);
 void print_ip_packet(const u_char * , int);
